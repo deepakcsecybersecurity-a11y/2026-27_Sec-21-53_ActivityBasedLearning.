@@ -1,6 +1,6 @@
 # Example rule: 10% discount when subtotal is Rs. 1000 or more.
 # Tax is 5% after discount.
-
+# Taking input from the user
 n = int(input("How many products? "))
 subtotal = 0
 
