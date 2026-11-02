@@ -1,12 +1,15 @@
+#taking input from the user
 balance = float(input("Enter opening balance: Rs. "))
 transactions = []
 n = int(input("How many transactions? "))
 
 for i in range(n):
-    print("1. Deposit")
-    print("2. Withdraw")
-    choice = int(input("Choose transaction: "))
-    amount = float(input("Enter amount: Rs. "))
+    print("1. Deposit") # Giving the Deposit option to the user
+    print("2. Withdraw") # Giving the Withdraw option to the user
+    choice = int(input("Choose transaction: ")) # Letting the user to choose the transcation type. 
+    # Choose "1" to Deposit Money
+    # Choose "2" to Withdraw money
+    amount = float(input("Enter amount: Rs. ")) # Enter the amount.
 
     if amount <= 0:
         print("Invalid amount.")
